@@ -33,7 +33,6 @@ struct ContentView: View {
                         // toggle() true 이면 false로 false 이면 true
                         self.isActivated.toggle()
                     }
-
                 } //Hastack
                 
                 //네비에기션 버튼(링크)
