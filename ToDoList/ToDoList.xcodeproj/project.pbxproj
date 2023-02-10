@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C12FF312996045C00FD98FE /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12FF302996045C00FD98FE /* MyList.swift */; };
+		5C7FD8B0299613100013C29E /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FD8AF299613100013C29E /* MyNavigationView.swift */; };
+		5C7FD8B2299617B70013C29E /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FD8B1299617B70013C29E /* MyProfileView.swift */; };
+		5C7FD8B42996197D0013C29E /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FD8B32996197D0013C29E /* MyCircleImageView.swift */; };
+		5C7FD8B629962B3C0013C29E /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FD8B529962B3C0013C29E /* MyWebView.swift */; };
 		5CDCDC0E2995293600F5F3C1 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCDC0D2995293600F5F3C1 /* ToDoListApp.swift */; };
 		5CDCDC102995293600F5F3C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCDC0F2995293600F5F3C1 /* ContentView.swift */; };
 		5CDCDC122995293700F5F3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDCDC112995293700F5F3C1 /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C12FF302996045C00FD98FE /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		5C7FD8AF299613100013C29E /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		5C7FD8B1299617B70013C29E /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		5C7FD8B32996197D0013C29E /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
+		5C7FD8B529962B3C0013C29E /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		5CDCDC0A2995293600F5F3C1 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDCDC0D2995293600F5F3C1 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		5CDCDC0F2995293600F5F3C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,11 +69,16 @@
 			children = (
 				5CDCDC0D2995293600F5F3C1 /* ToDoListApp.swift */,
 				5CDCDC0F2995293600F5F3C1 /* ContentView.swift */,
+				5C7FD8B529962B3C0013C29E /* MyWebView.swift */,
+				5C7FD8AF299613100013C29E /* MyNavigationView.swift */,
+				5C7FD8B1299617B70013C29E /* MyProfileView.swift */,
+				5C7FD8B32996197D0013C29E /* MyCircleImageView.swift */,
 				5CDCDC112995293700F5F3C1 /* Assets.xcassets */,
 				5CDCDC132995293700F5F3C1 /* Preview Content */,
 				5CDCDC1B2995298900F5F3C1 /* MyProjectCard.swift */,
 				5CDCDC1D2995299B00F5F3C1 /* MyBasicCard.swift */,
 				5CDCDC1F299529C800F5F3C1 /* MyCard.swift */,
+				5C12FF302996045C00FD98FE /* MyList.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -146,11 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7FD8B42996197D0013C29E /* MyCircleImageView.swift in Sources */,
+				5C7FD8B2299617B70013C29E /* MyProfileView.swift in Sources */,
 				5CDCDC1C2995298900F5F3C1 /* MyProjectCard.swift in Sources */,
 				5CDCDC102995293600F5F3C1 /* ContentView.swift in Sources */,
 				5CDCDC1E2995299B00F5F3C1 /* MyBasicCard.swift in Sources */,
 				5CDCDC20299529C800F5F3C1 /* MyCard.swift in Sources */,
 				5CDCDC0E2995293600F5F3C1 /* ToDoListApp.swift in Sources */,
+				5C7FD8B629962B3C0013C29E /* MyWebView.swift in Sources */,
+				5C12FF312996045C00FD98FE /* MyList.swift in Sources */,
+				5C7FD8B0299613100013C29E /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
